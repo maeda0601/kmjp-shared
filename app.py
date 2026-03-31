@@ -53,7 +53,7 @@ def send_mail(to_email: str, subject: str, body_text: str) -> None:
 
 if __name__ == "__main__":
     send_mail(
-        to_email="s_maeda@kyowa-mfg.co.jp",
+        to_email="sample@example.com",
         subject="Graph API テスト",
         body_text="これは Microsoft Graph API から送信したテストメールですQ。",
     )
